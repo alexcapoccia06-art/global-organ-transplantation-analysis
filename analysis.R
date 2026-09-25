@@ -15,7 +15,7 @@ library(readxl)
 library(tidyverse)
 library(janitor)
 library(ggrepel)
-# FALSE runs only data preparation. Leave this unchanged for now.
+# TRUE runs both data preparation and the analyses below.
 run_analyses <- TRUE
 
 #-----------------------READ THE EXCEL FILE--------------------
