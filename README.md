@@ -71,6 +71,36 @@ The script checks:
 
 Population-adjusted measures are expressed per million population (pmp).
 
+```
+
+
+## Running the analysis
+
+The analysis requires R and the following packages:
+
+```r
+install.packages(c("readxl", "tidyverse", "janitor", "ggrepel"))
+```
+
+Run `analysis.R` from the beginning and select the original GODT Excel workbook
+when prompted. The script imports and validates the data, reshapes the dataset,
+runs the analyses, and saves the main figures.
+
+The source dataset is not redistributed in this repository.
+
+## Tools
+
+- R
+- tidyverse / dplyr
+- ggplot2
+- readxl
+- janitor
+- ggrepel
+
+## Full report
+
+[Global Organ Transplantation Report](report/Global_Organ_Transplantation_Report.pdf)
+
 ## Repository structure
 
 ```text
